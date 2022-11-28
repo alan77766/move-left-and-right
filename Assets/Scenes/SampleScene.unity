@@ -357,6 +357,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 1935875356}
+  WalkSound: {fileID: 8300000, guid: c1ed3f95cdbc7f242847c7d822eb61cf, type: 3}
+  HurtSound: {fileID: 8300000, guid: 5a4c7232b4ba4984c94ea4eb52b0f4c0, type: 3}
 --- !u!212 &419623241
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -450,7 +452,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c1ed3f95cdbc7f242847c7d822eb61cf, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
