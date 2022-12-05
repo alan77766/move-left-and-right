@@ -46,6 +46,7 @@ public class Player : MonoBehaviour
         GetComponent<AudioSource>().clip = WalkSound;
         GetComponent<AudioSource>().Play();
         transform.Translate(-3, 0, 0);
+
     }
 
     // 當玩家按下畫面右按鍵時，貓咪往右移動「3」
